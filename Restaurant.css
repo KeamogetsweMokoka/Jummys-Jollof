@@ -2,7 +2,7 @@
     display: flex;
     margin: auto;
     padding: 10px;
-    width: 520px;
+    width: 320px;
     height: 50%; 
     border: solid 1px black;
 }
@@ -22,6 +22,7 @@ p, h4{
     margin: auto;
     text-align: center;
     width: 800px;
+    padding: 10px;
 }
 
 #tryout{ /* center this */ 
@@ -36,9 +37,13 @@ p, h4{
 }
 
 #footer-section{
-
+    background-color: rgb(44, 42, 42);
+    color: white;
 }
-
+.footer-text{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 .socials{
     display: flex;
     padding-right: 100px;
@@ -50,6 +55,7 @@ p, h4{
     margin-top: 10px;
     justify-content: space-around;
     font-size: x-large;
+    color: white;
 }
 
 .insta, .tik, .face{
