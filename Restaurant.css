@@ -70,3 +70,10 @@ p, h4{
     height: 500px; 
     width: 1331px; 
 }
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
