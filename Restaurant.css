@@ -1,9 +1,20 @@
-#hero-section{
+.restaurant{
+    width: 100%; 
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.hero-section{
+    display: flex;
+    margin: 0 10px;
+}
+
+#hero-section-1{
     display: flex;
     margin: auto;
     padding: 10px;
     width: 320px;
-    height: 50%; 
+    /* height: 50%;  */
     border: solid 1px black;
 }
 
@@ -48,6 +59,7 @@ p, h4{
     padding-top: 20px;
 }
 .socials{
+    width: 100%; /* Fix */ 
     display: flex;
     padding-right: 100px;
     margin: auto;
@@ -75,4 +87,67 @@ a:link{
 }
 a:visited{
     color: black;
+}
+
+
+
+/* TODO: Remove the colours of the widths */ 
+@media only screen and (max-width: 600px)  and (orientation: landscape) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+        background-color: aqua;
+    }
+}
+@media only screen and (max-width: 600px)  and (orientation: portrait) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+        background-color: rgba(0, 255, 255, 0.781);
+    }
+}
+
+@media only screen and (min-width: 601px)  and (orientation: landscape) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+        background-color: orange;
+    }
+}
+@media only screen and (min-width: 601px)  and (orientation: portrait) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+        background-color: rgba(255, 166, 0, 0.836);
+    }
+}
+
+@media only screen and (min-width: 768px)  and (orientation: landscape) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+        background-color: pink;
+    }
+}
+@media only screen and (min-width: 768px)  and (orientation: portrait) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+        background-color: rgba(255, 192, 203, 0.699);
+    }
+}
+
+@media only screen and (min-width: 992px)  and (orientation: landscape) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+        background-color: purple;
+    }
+}
+@media only screen and (min-width: 992px)  and (orientation: portrait) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+        background-color: rgba(128, 0, 128, 0.808);
+    }
 }
