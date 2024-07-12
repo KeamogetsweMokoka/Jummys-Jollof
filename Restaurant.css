@@ -1,3 +1,8 @@
+/* can possibly change the colour of the background */
+body{
+    background-color: rgb(187, 187, 187);
+}
+
 .restaurant{
     width: 100%; 
     padding: 100px 0;
@@ -66,8 +71,8 @@ p, h4{
     padding-bottom: 20px;
     padding-top: 20px;
     flex-wrap: wrap;
-
 }
+
 .socials{
     width: 100%; /* Fix */ 
     display: flex;
