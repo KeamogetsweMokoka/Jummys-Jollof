@@ -3,9 +3,6 @@
     padding: 100px 0;
     margin: 0 auto;
 }
-.main-section{
-    width: 100%;
-}
 
 .hero-section{
     display: flex;
@@ -29,22 +26,25 @@
     margin-top: 10px;
     margin-bottom: 10px;
     height: 500px;
+    width: 100%;
     box-shadow: 0px 0px 5px 5px #383737;
 }
 
 p, h4{
     margin: auto;
     text-align: center;
-    width: 800px;
     padding: 10px;
+    word-wrap: normal;
+    /* text-wrap: wrap; */
 }
 
 #tryout{ /* center this */ 
     display: flex;
     margin-top: 10px;
     justify-content: space-around;
-    
+    flex-wrap: wrap;
 }
+
 .one, .two, .three{
     width: 400px;
     height: 400px;
@@ -60,6 +60,8 @@ p, h4{
 .footer-text{
     padding-bottom: 20px;
     padding-top: 20px;
+    flex-wrap: wrap;
+
 }
 .socials{
     width: 100%; /* Fix */ 
