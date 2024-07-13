@@ -1,6 +1,75 @@
-#background{
-    background-color: rgb(44, 42, 42);
-    height: 900px;
-    width: 1300px;
-    border: 1px soldi black;
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px)  and (orientation: landscape) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 600px)  and (orientation: portrait) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px)  and (orientation: landscape) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 601px)  and (orientation: portrait) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px)  and (orientation: landscape) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px)  and (orientation: portrait) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px)  and (orientation: landscape) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 992px)  and (orientation: portrait) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px)  and (orientation: landscape) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1200px)  and (orientation: portrait) {
+    .hero-section,
+    .restaurant{
+        width: 100%;
+    }
 }
