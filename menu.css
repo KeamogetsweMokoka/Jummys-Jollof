@@ -92,7 +92,16 @@ body{
     padding-bottom: 10px;
 }
 
-.menu-colum h4:before {}
+.menu-colum h4:before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #00875c;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-170px);
+}
 
 .single-menu {display: flex;align-items: center;margin-top: 40px;}
 
