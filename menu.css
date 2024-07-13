@@ -1,4 +1,11 @@
-
+.menu{
+    border: 2px solid red;
+    width: 60%;
+    height: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
